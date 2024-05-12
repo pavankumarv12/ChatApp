@@ -6,7 +6,6 @@ import ChatArea from "./ChatArea";
 function MainContainer(){
     return <div className="main-container">
         <Sidebar/>
-        {/* <WorkArea/> */}
         <ChatArea />
     </div>;
 }

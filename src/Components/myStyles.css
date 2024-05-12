@@ -43,6 +43,7 @@
     border: none;
     font-size: 1.25rem;
     margin-left: 10px;
+    color: rgba(0, 0, 0, 0.54);
 }
 
 .sb-conversation{
@@ -133,10 +134,65 @@
 }
 
 .messages-container{
-    background-color: aquamarine;
+    background-color: white;
     flex: 1 1;
+    padding: 10px 10px;
+    margin: 10px;
+    border-radius: 20px;
 }
 
 .text-input-area{
-    background-color: yellow;
+    background-color: white;
+    padding: 10px 10px;
+    margin: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.other-message-container{
+    background-color: white;
+    padding: 10px 10px;
+    margin: 5px;
+    border-radius: 20px;
+    width: max-content;
+    margin-top: 10px;
+}
+
+.conversation-container{
+    
+}
+
+.self-message-container{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.other-text-content{
+    background-color: #d9d9d9;
+    padding: 10px 10px;
+    margin: 5px;
+    border-radius: 20px;
+    width: max-content;
+    margin-top: 10px;
+
+}
+
+.self-timeStamp{
+    align-self: flex-end;
+    font-size: 0.75rem;
+    font-weight: lighter;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.messageBox{
+    display: flex;
+    flex-direction: column;
+    background-color: #63d7b0;
+    width: max-content;
+    padding: 10px 10px;
+    margin: 5px;
+    border-radius: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
 }

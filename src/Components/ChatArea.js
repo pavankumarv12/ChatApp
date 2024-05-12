@@ -5,6 +5,8 @@ import SendIcon from '@mui/icons-material/Send';
 import MessageSelf from "./MessageSelf";
 import MessageOthers from "./MessageOthers";
 
+
+
 function ChatArea({ props }) {
     
     return (
@@ -22,6 +24,10 @@ function ChatArea({ props }) {
             <div className="messages-container">
                 <MessageOthers />
                 <MessageSelf />
+                <MessageOthers />
+                <MessageSelf />
+                <MessageOthers />
+                <MessageSelf />
             </div>
             <div className="text-input-area">
                 <input placeholder="Type a Message" className="search-box" />
@@ -32,7 +38,7 @@ function ChatArea({ props }) {
         </div>
         
     );
-    console.log(props);
+    
 }
 
 

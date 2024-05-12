@@ -107,7 +107,7 @@
 .chatArea-container{
     /* background-color: blue; */
     /* border: 2px solid blue; */
-    background-color: aliceblue;
+    /* background-color: aliceblue; */
     flex: 0.7;
     display: flex;
     flex-direction: column;
@@ -139,6 +139,12 @@
     padding: 10px 10px;
     margin: 10px;
     border-radius: 20px;
+    overflow: scroll;
+    scrollbar-width: none;
+}
+
+.messages-container ::-webkit-scrollbar{
+    display: none;
 }
 
 .text-input-area{
@@ -168,8 +174,8 @@
     justify-content: flex-end;
 }
 
-.other-text-content{
-    background-color: #d9d9d9;
+.other-text-container{
+    background-color: gainsboro;
     padding: 10px 10px;
     margin: 5px;
     border-radius: 20px;
@@ -179,6 +185,7 @@
 }
 
 .self-timeStamp{
+    text-align: end;
     align-self: flex-end;
     font-size: 0.75rem;
     font-weight: lighter;
@@ -195,4 +202,31 @@
     border-radius: 20px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
+}
+.welcome-logo{
+    height: 20vw;
+}
+
+.welcome-container{
+    flex: 0.7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgba(0, 0, 0, 0.54);
+    border-bottom: 5px solid #63d7be;
+    border-radius: 20px;
+}
+
+.createGroups-container{
+    flex: 0.7;
+    align-self: center;
+    padding: 20px 10px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
 }
